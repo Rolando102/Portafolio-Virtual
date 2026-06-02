@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; }
+html, body, #root { height: 100%; }
+
+/* Evitar que el ancla quede oculta bajo la navbar fija */
+section[id] { scroll-margin-top: 84px; }
+header[id] { scroll-margin-top: 84px; }
