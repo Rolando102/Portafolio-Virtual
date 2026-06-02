@@ -58,7 +58,7 @@ export default function App() {
                 Soy <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-400">Rolando</span> Rojas
               </h1>
               <p className="text-xl text-gray-300 max-w-2xl leading-relaxed animate-fade-in">
-                Portafolio profesional con proyectos, semanas, reflexiones y bibliografía. Todo el contenido es fijo y se edita solo desde el código fuente.
+                Portafolio profesional con proyectos, semanas, reflexiones y bibliografía.
               </p>
             </div>
             <Presentacion />
@@ -138,7 +138,7 @@ export default function App() {
 
       <footer className="bg-slate-900 border-t border-cyan-500/30 py-8 mt-20">
         <div className="container mx-auto px-6 text-center">
-          <p className="text-gray-400">© 2025 Rojas Quispe Rolando Raul</p>
+          <p className="text-gray-400">© 2026 Rojas Quispe Rolando Raul</p>
           <p className="text-cyan-400 mt-2">Ingeniería de Sistemas • IX Semestre</p>
         </div>
       </footer>
