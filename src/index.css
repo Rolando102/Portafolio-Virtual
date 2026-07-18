@@ -4,7 +4,80 @@
 
 html { scroll-behavior: smooth; }
 html, body, #root { height: 100%; }
+body { background-color: #030014; }
 
 /* Evitar que el ancla quede oculta bajo la navbar fija */
-section[id] { scroll-margin-top: 84px; }
-header[id] { scroll-margin-top: 84px; }
+section[id] { scroll-margin-top: 96px; }
+header[id] { scroll-margin-top: 96px; }
+
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+/* Scrollbar personalizada */
+::-webkit-scrollbar { width: 10px; }
+::-webkit-scrollbar-track { background: #030014; }
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #22d3ee, #a855f7);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover { background: linear-gradient(180deg, #67e8f9, #c084fc); }
+
+/* Tarjetas de vidrio esmerilado (glassmorphism) */
+.glass {
+  background: rgba(15, 15, 35, 0.55);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(148, 163, 184, 0.12);
+}
+
+/* Borde con resplandor animado al pasar el mouse */
+.glow-border {
+  position: relative;
+  isolation: isolate;
+}
+.glow-border::before {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(120deg, #22d3ee, #a855f7, #22d3ee);
+  background-size: 200% 200%;
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  z-index: -1;
+  animation: shimmer-bg 4s linear infinite;
+}
+.glow-border:hover::before { opacity: 1; }
+
+@keyframes shimmer-bg {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 200% 50%; }
+}
+
+/* Texto con degradado animado */
+.text-gradient {
+  background: linear-gradient(90deg, #22d3ee, #a855f7, #22d3ee);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: shimmer 6s linear infinite;
+}
+
+/* Animación escalonada para listas */
+.stagger > * { animation: fade-in 0.7s ease-out both; }
+.stagger > *:nth-child(1) { animation-delay: 0.05s; }
+.stagger > *:nth-child(2) { animation-delay: 0.15s; }
+.stagger > *:nth-child(3) { animation-delay: 0.25s; }
+.stagger > *:nth-child(4) { animation-delay: 0.35s; }
+.stagger > *:nth-child(5) { animation-delay: 0.45s; }
+.stagger > *:nth-child(6) { animation-delay: 0.55s; }
+
+@keyframes fade-in {
+  0% { opacity: 0; transform: translateY(16px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
