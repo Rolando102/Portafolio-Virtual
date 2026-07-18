@@ -105,9 +105,6 @@ export default function App() {
                 <a href="#proyectos" className="px-6 py-3 rounded-full bg-gradient-to-r from-cyan-500 to-purple-500 font-semibold text-sm shadow-lg shadow-purple-500/30 hover:scale-105 hover:shadow-cyan-500/40 transition-all">
                   Ver proyectos
                 </a>
-                <a href="mailto:rojasquisperolandoraul@gmail.com" className="flex items-center gap-2 px-6 py-3 rounded-full glass font-semibold text-sm hover:border-cyan-400/50 hover:text-cyan-300 transition-all">
-                  {ICONS.mail} Contáctame
-                </a>
                 <a href="https://github.com/Rolando102" target="_blank" rel="noreferrer" className="flex items-center justify-center w-11 h-11 rounded-full glass hover:text-cyan-300 hover:border-cyan-400/50 transition-all">
                   {ICONS.github}
                 </a>
