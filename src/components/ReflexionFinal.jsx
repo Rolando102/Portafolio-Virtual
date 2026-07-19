@@ -24,13 +24,13 @@ export default function ReflexionFinal() {
             tipado estático, se adquirieron habilidades para construir aplicaciones más organizadas,
             seguras y fáciles de mantener.
             <br /><br />
-            Además, el uso de TypeScript evidenció la importancia de escribir código más robusto y
-            escalable, reduciendo errores durante el desarrollo y facilitando la comprensión del
-            proyecto. Esta experiencia contribuyó a desarrollar una visión más profesional sobre la
-            creación de aplicaciones web, destacando la necesidad de aplicar buenas prácticas de
-            programación, modularización y reutilización de componentes. Como resultado, se
-            fortalecieron las competencias necesarias para afrontar proyectos web de mayor
-            complejidad en el futuro.
+            El desarrollo de aplicaciones web Backend utilizando Python y el framework Django permitió
+            consolidar conocimientos fundamentales sobre la arquitectura de aplicaciones web, la
+            programación orientada a objetos y la construcción de sistemas dinámicos y escalables.
+            A lo largo del consolidado se aplicaron conceptos como el manejo de formularios,
+            autenticación, administración de datos con Django Admin, diseño de modelos, desarrollo de
+            APIs RESTful y arquitectura basada en microservicios, fortaleciendo la capacidad para crear
+            soluciones web modernas y seguras.
           </p>
         </Reveal>
       </div>

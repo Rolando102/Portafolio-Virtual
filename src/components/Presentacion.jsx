@@ -37,7 +37,7 @@ export default function Presentacion() {
         </li>
         <li className="glass rounded-xl p-3 text-center">
           <p className="text-cyan-300 font-bold text-sm">Stack</p>
-          <p className="text-gray-400 text-xs mt-1">React · Tailwind · UX</p>
+          <p className="text-gray-400 text-xs mt-1">React · Tailwind · UX Python · Django  · PostgreSQL · Docker · REST API ·Git </p>
         </li>
         <li className="glass rounded-xl p-3 text-center">
           <p className="text-cyan-300 font-bold text-sm">Contacto</p>

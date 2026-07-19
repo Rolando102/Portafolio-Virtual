@@ -8,6 +8,13 @@ const referencias = [
   "JavaScript. (2024). Documentación oficial de JavaScript. MDN Web Docs - JavaScript",
   "TypeScript. (2024). Documentación oficial de TypeScript. TypeScript Documentation",
   "React. (2024). Documentación oficial de React. React Docs",
+  "Python Software Foundation. (2024). Documentación oficial de Python. Python Documentation",
+  "Django Software Foundation. (2024). Documentación oficial de Django. Django Documentation",
+  "Django REST Framework. (2024). Documentación oficial de Django REST Framework. DRF Documentation",
+  "PostgreSQL Global Development Group. (2024). Documentación oficial de PostgreSQL. PostgreSQL Documentation",
+  "Docker Inc. (2024). Documentación oficial de Docker. Docker Documentation",
+  "The Kubernetes Authors. (2024). Documentación oficial de Kubernetes. Kubernetes Documentation",
+  "Apache Software Foundation. (2024). Documentación oficial de Apache HTTP Server. Apache HTTP Server Documentation",
 ];
 
 export default function Bibliografia() {
